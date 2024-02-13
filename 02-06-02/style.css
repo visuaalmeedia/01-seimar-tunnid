@@ -1,0 +1,15 @@
+body {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+main {
+    background-color: aqua;
+    width: 80ch;
+    max-width: 100%;    
+}
+.card-row {
+    display: flex;
+    gap: 1rem;
+}
