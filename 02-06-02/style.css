@@ -1,13 +1,13 @@
 body {
-    display: flex; 
+    display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
 }
 main {
-    background-color: aqua;
+    background-color: rgb(255, 216, 118);
     width: 80ch;
-    max-width: 100%;    
+    max-width: 100%;
 }
 .card-row {
     display: flex;
