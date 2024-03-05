@@ -5,11 +5,26 @@ body {
     height: 100vh;
 }
 main {
-    background-color: rgb(255, 216, 118);
-    width: 80ch;
-    max-width: 100%;
+    background-color: rgb(99, 39, 31);
+    max-width: 56rem;
+    width: 100%;
+    padding: 1rem;
 }
 .card-row {
+    background-color: brown;
     display: flex;
+    flex-wrap: wrap;
     gap: 1rem;
+}
+.hero-content {
+    /* margin: 0 auto; */
+    width: 75ch;
+}
+.hero-container {
+    justify-content: center;
+}
+.card {
+    min-width: 18rem;
+    flex: 1;
+    padding: 1rem;
 }
